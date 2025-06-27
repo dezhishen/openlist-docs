@@ -1,0 +1,1 @@
+import{j as e,O as n,a1 as a,v as r,L as s}from"./framework.CbXLXyt5.js";import{u as c}from"./chunks/vue-i18n.CCQe_rQY.js";import{e as o}from"./chunks/vue-router.vnuJ3mbs.js";const f=e({__name:"[...all]",setup(p){const{t}=c();return(i,l)=>(s(),n("div",null,a(r(t)("not-found")),1))}});typeof o=="function"&&o(f);export{f as default};
