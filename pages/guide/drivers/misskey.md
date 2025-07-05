@@ -19,11 +19,26 @@ sticky: true
 star: true
 ---
 
-## 实例地址
+## Instance URL { lang="en" }
 
+## 实例地址 { lang="zh-CN" }
+
+::: en
+The URL of your Misskey instance, whether self-hosted or in use.
+For example, the official instance at `https://misskey.io`
+:::
+::: zh-CN
 自行部署的或正在使用的Misskey实例地址
 例如官方实例`https://misskey.io`
+:::
 
-## Token
+## Token { lang="en" }
 
+## Token { lang="zh-CN" }
+
+::: en
+Visit `https://{misskey-instance}/settings/api` to generate an access token. It requires the `read:drive` and `write:drive` permissions.
+:::
+::: zh-CN
 前往`https://{misskey-instance}/settings/api`生成访问token，需要`read:drive`及`write:drive`权限。
+:::

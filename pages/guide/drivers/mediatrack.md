@@ -19,27 +19,79 @@ sticky: true
 star: true
 ---
 
+::: en
 **https://app.mediatrack.cn**
+:::
+::: zh-CN
+**https://app.mediatrack.cn**
+:::
 
-## **访问令牌**
+### **Access token** { lang="en" }
 
-登录后可以在请求头中获取
+## **访问令牌** { lang="zh-CN" }
 
+::: en
+You can get it in request header after logging in
 ![token](/img/drivers/mediatrack-token.png)
+:::
+::: zh-CN
+登录后可以在请求头中获取
+![token](/img/drivers/mediatrack-token.png)
+:::
 
-## **项目编号**
+### **Project id** { lang="en" }
 
-从官网网址获取：
+## **项目编号** { lang="zh-CN" }
 
+::: en
+Get from official website url:
 ![Project id](/img/drivers/mediatrack-projectid.png)
+:::
+::: zh-CN
+从官网网址获取：
+![Project id](/img/drivers/mediatrack-projectid.png)
+:::
 
-## **根文件夹 ID**
+### **Root folder id** { lang="en" }
 
-登录后从请求中获取
+## **根文件夹 ID** { lang="zh-CN" }
 
+::: en
+Get it from the request after logging in
 ![id](/img/drivers/mediatrack-rootid.png)
+:::
+::: zh-CN
+登录后从请求中获取
+![id](/img/drivers/mediatrack-rootid.png)
+:::
 
-### **默认使用的下载方式**
+### **The default download method used** { lang="en" }
+
+### **默认使用的下载方式** { lang="zh-CN" }
+
+::: en
+
+```mermaid
+---
+title: Which download method is used by default?
+---
+flowchart TB
+    style a1 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff
+    style a2 fill:#ff7575,stroke:#333,stroke-width:4px
+    subgraph ide1 [ ]
+    a1
+    end
+    a1[302]:::someclass====|default|a2[user equipment]
+    classDef someclass fill:#f96
+    c1[local proxy]-.alternative.->a2[user equipment]
+    b1[Download proxy URL]-.alternative.->a2[user equipment]
+    click a1 "../drivers/common.html#webdav-policy"
+    click b1 "../drivers/common.html#webdav-policy"
+    click c1 "../drivers/common.html#webdav-policy"
+```
+
+:::
+::: zh-CN
 
 ```mermaid
 ---
@@ -59,3 +111,5 @@ flowchart TB
     click b1 "../drivers/common.html#webdav-策略"
     click c1 "../drivers/common.html#webdav-策略"
 ```
+
+:::
