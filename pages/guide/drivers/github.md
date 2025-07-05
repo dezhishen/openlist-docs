@@ -20,13 +20,15 @@ sticky: true
 star: true
 ---
 
-tip
+::: en
+::: tip
 GitHub API does not support operating files larger than 100MiB and folders containing more than 100,000 sub-items.
 All `.gitkeep` files will be managed by the driver and will be invisible to the user.
 Operations on submodules are currently not supported.
 :::
 
-tip
+::: zh-CN
+::: tip
 GitHub API 不支持操作 100M 或更大的文件，不支持操作含有超过 100,000 个子文件（夹）的文件夹。
 本驱动会忽略仓库内的所有`.gitkeep`文件。
 本驱动暂不支持操作子模块。

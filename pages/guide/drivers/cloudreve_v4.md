@@ -56,10 +56,12 @@ Cloudreve V4 supports authentication using Token. This means the mounting authen
 
 #### 本地存储 { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 There may be multiple sessions; please select the one you want to mount.
 :::
-tip
+::: zh-CN
+::: tip
 可能有多个会话，请选择要挂载的那个。
 :::
 
@@ -75,11 +77,13 @@ tip
 
 #### 浏览器请求 { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 You may need to log in anew to see this request.
 :::
 
-tip
+::: zh-CN
+::: tip
 可能需要全新登录才能看到这个请求。
 :::
 ::: en

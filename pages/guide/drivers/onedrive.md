@@ -32,13 +32,15 @@ headerDepth: 5
 
 ## **正常 OneDrive 挂载** { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 If your account does not support the API, (for example, the school account has not verified the administrator, or the administrator has disabled the API), then you can also mount it through webdav. For details, see [webdav](webdav.md)
 :::
 ::: en
 First open https://api.oplist.org/
 :::
-tip
+::: zh-CN
+::: tip
 如果你的账号不支持 API，（比如学校账号没有验证管理员，或者管理员禁用了 API），那么你也可以通过 WebDAV 挂载。 有关详细信息，请参阅 [WebDAV 页面](webdav.md)
 :::
 ::: zh-CN

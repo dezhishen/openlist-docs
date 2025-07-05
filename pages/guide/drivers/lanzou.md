@@ -19,7 +19,8 @@ sticky: true
 star: true
 ---
 
-tip
+::: en
+::: tip
 Lanzuo Network Disk has three types of **modes (types)**, which are **accounts, Cookie** and **Url**
 
 - **Account** : You can display all the files of your own cloud disk, you only need to fill in the account password, which will automatically help you refresh the cookie
@@ -30,7 +31,8 @@ Lanzuo Network Disk has three types of **modes (types)**, which are **accounts, 
 - Using the Url mode will always cause convulsions. I don’t know what’s going on and suddenly prompts
   :::
 
-tip
+::: zh-CN
+::: tip
 蓝奏网盘挂载有三种**模式（类型）**，分别是 **账户，cookie** 和 **链接**
 
 - **账户**：可以显示自己网盘所有文件，只需要填写帐号密码，会自动帮你刷新cookie

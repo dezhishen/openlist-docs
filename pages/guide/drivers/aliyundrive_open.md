@@ -20,10 +20,12 @@ sticky: true
 star: true
 ---
 
-tip
+::: en
+::: tip
 Aliyundrive Open, developed based on the official authorization API.
 :::
-danger Read the precautions carefully
+::: en
+::: danger Read the precautions carefully
 
 1. ==The refresh token obtained by this tool can only be used for **Aliyundrive open platform** storage mount method==
 2. The token filled in when Alist is mounted should also be provided by this tool, and the previous acquisition method will not be available
@@ -36,10 +38,12 @@ danger Read the precautions carefully
 7. It is prohibited to use Alibaba Cloud Disk to build distribution services including but not limited to **`picture bed, software bed`** and **`video external link to video website playback`**, as well as some non-standard usage methods not mentioned above. If you violate the rules and are `frozen/banned`, you will be responsible for the consequences and it cannot be lifted.
    :::
 
-tip
+::: zh-CN
+::: tip
 阿里云盘 Open 基于官方授权 API 开发。
 :::
-danger 请仔细阅读注意事项
+::: zh-CN
+::: danger 请仔细阅读注意事项
 
 1. ==此工具获取的刷新令牌仅可以用于 **阿里云盘开放平台** 存储挂载方式==
 2. OpenList 挂载时填写的 token 也应该是这个工具提供的，之前方式获取的不可以
@@ -78,15 +82,14 @@ warning 注意事项
 ### 2.1.开放平台注册应用（可选，如果使用OpenList/公益服务器/自建服务器内置的密钥对，则不用创建） { lang="zh-CN" }
 
 ::: en
-
 ::: tip  
 Please register an application according to the requirements of the AliYun Drive Open Platform.  
 :::
 ::: en  
 Open Platform URL: [AliYun Drive Open Platform](https://www.alipan.com/developer/f)  
 :::
-::: zh-CN
 
+::: zh-CN
 ::: tip
 请根据阿里云盘开放平台的要求注册应用
 :::

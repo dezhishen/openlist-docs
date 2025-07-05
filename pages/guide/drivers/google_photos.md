@@ -30,6 +30,7 @@ star: true
 
 如何获取自己的 `client_id(客户端ID)  client_secret(客户端秘钥)` 去看[**谷歌网盘**](./googledrive.md)哪一篇
 
+::: en
 ::: tip
 
 提示 此应用未经 Google 验证

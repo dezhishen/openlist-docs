@@ -10,7 +10,8 @@ categories:
   - drivers
 ---
 
-tip
+::: en
+::: tip
 Please use Thunder directly instead of ThunderExpert if you are not good at it.
 ThunderExpert mainly provides more free settings and realizes more login methods
 
@@ -28,11 +29,12 @@ Thunder Browser：Currently only supports mobile phones (Android, iOS)
 - **https://x.xunlei.com/**
 - If you log in to OpenList, the mobile phone will be kicked offline. On the contrary, if you log in to OpenList first and then log in to the mobile phone, OpenList will be kicked offline but there will be no prompt
   :::
-
-tip
-迅雷 前两个是服务国内用户
-小白请直接使用 迅雷不要使用 `迅雷专家版`
-`迅雷专家版`主要提供更自由的设置,实现更多登录方式
+  :::
+  ::: zh-CN
+  ::: tip
+  迅雷 前两个是服务国内用户
+  小白请直接使用 迅雷不要使用 `迅雷专家版`
+  `迅雷专家版`主要提供更自由的设置,实现更多登录方式
 
 ---
 
@@ -171,7 +173,8 @@ flowchart TB
 If Xunlei needs to download, you must specify UserAgent (same as DownUserAgent below)
 Or use the proxy function in this program to transfer.
 :::
-tip
+::: zh-CN
+::: tip
 迅雷如果需要下载必须指定 UserAgent(同下 DownUserAgent)
 或使用本程序中的代理功能进行中转。
 :::
@@ -392,10 +395,12 @@ flowchart TB
 
 ## 3.迅雷 X { lang="zh-CN" }
 
-danger
+::: zh-CN
+::: danger
 目前官方对于频繁调用接口行为会进行封号处理，请谨慎使用，后果自负。
 :::
-danger
+::: en
+::: danger
 At present, the official will ban frequent API calls. Please use with caution and bear the consequences.
 :::
 
@@ -518,10 +523,12 @@ flowchart TB
 
 ## 4.Thunder X Expert { lang="en" }
 
-danger
+::: en
+::: danger
 At present, the official will ban frequent API calls. Please use with caution and bear the consequences.
 :::
-danger
+::: zh-CN
+::: danger
 目前官方对于频繁调用接口行为会进行封号处理，请谨慎使用，后果自负。
 :::
 

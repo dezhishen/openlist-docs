@@ -26,7 +26,8 @@ star: true
 ::: en
 What is `Crypt`?
 In simple words, it's a two-password-protected safe. No one can open it without the key. The password and the salt in the configuration form the key.
-tip
+::: en
+::: tip
 
 1. If you don’t know how to use this encryption/decryption driver, please read this guide carefully
 2. Please test it locally to understand it fully before use in the production environment.
@@ -38,7 +39,8 @@ tip
 `Crypt`是什么？
 相当于一个两层密码的保险箱加密了，除了你自己有钥匙能打开别人谁也打不开，配置中的密码和盐值相当于钥匙
 当然还有密码和盐值你自己也要保管好，如果丢失了你自己也打不开，除非你自己穷举或者猜出正确密码。
-tip 使用提醒
+::: zh-CN
+::: tip 使用提醒
 
 1. 如果你不了解想要使用本 加/解密 驱动请仔细查看一下每个文字
 2. 请先在本地使用了解一下再搬到生产环境中部署使用，否则数据丢失自行承担！

@@ -76,14 +76,14 @@ There are two ways to fill in
 2. The second is to directly mount the root folder path, using the `renaming` method, it is strongly recommended to use :heavy_check_mark:
    -Paths filling example:
    `bash title="path"
-      #Example 1 Directly write the root folder
-      merge: /file1
-      merge: /file2
-      #Example 2 Mount different path folders for merging
-      merge: /file1/localtest233
-      merge: /file2/videos/TV series
-      merge: /file3 2/TV/Domestic TV Series/Station XX
-      `
+   #Example 1 Directly write the root folder
+   merge: /file1
+   merge: /file2
+   #Example 2 Mount different path folders for merging
+   merge: /file1/localtest233
+   merge: /file2/videos/TV series
+   merge: /file3 2/TV/Domestic TV Series/Station XX
+   `
    According to the second method, we can `merge` and display different folders, which is convenient and quick
    :::
    ::: zh-CN
@@ -97,14 +97,14 @@ There are two ways to fill in
 4. 第二种是可以直接挂载根文件夹ID，利用`重命名`的方式，强烈推荐使用 :heavy_check_mark:
    - `路径`填写示例：
      `bash title="path"
-     #示例1 直接写根文件夹
-     合并显示:/目录1
-     合并显示:/目录2
-     #示例2 挂载不同路径文件夹进行合并
-     合并显示:/目录1/本地测试233
-     合并显示:/目录2/视频/电视剧
-     合并显示:/目录2/电视/国产电视剧/某某台
-     `
+#示例1 直接写根文件夹
+合并显示:/目录1
+合并显示:/目录2
+#示例2 挂载不同路径文件夹进行合并
+合并显示:/目录1/本地测试233
+合并显示:/目录2/视频/电视剧
+合并显示:/目录2/电视/国产电视剧/某某台
+`
      根据第二种这样我们可以将不同的文件夹进行`合并显示`，方便快捷
      :::
 
@@ -382,13 +382,15 @@ a/5.bin     b/6.css             alias/5.bin
 ::: en
 This enables multi-threaded concurrent downloading support.
 You need to enable `proxy` first.
-danger
+::: en
+::: danger
 Please do not abuse, otherwise you will be responsible for any abnormal consequences of your cloud storage account!
 :::
 
 ::: zh-CN
 需要开启代理才会生效，可多线程并发下载。
 具体限制
-danger
+::: zh-CN
+::: danger
 请不要滥用，否则云盘账号异常后果自负！
 :::

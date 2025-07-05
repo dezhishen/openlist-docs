@@ -102,7 +102,6 @@ The validity period of the signed download address is 4 hours by default.
 ## **详情填写示意图** { lang="zh-CN" }
 
 ::: en
-
 ::: tip
 If you want to use the official test domain name, you must manually add http For example: http://xxx.test.upcdn.net
 If you want to use HTTPS, of course, you can also add your own domain name, for example: https://you.xxx.com
@@ -111,8 +110,8 @@ permission is turned on by itself, and the read permission must be turned on！
 ::: en
 ![s3](/img/drivers/s3/up.png)
 :::
-::: zh-CN
 
+::: zh-CN
 ::: tip
 如果你要用官方提供的的测试域名那必须要手动加http 例如： http://xxx.test.upcdn.net
 如果想用HTTPS，当然也可以添加自己的域名就可以使用例如：https://you.xxx.com

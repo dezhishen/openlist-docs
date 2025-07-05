@@ -19,7 +19,8 @@ sticky: true
 star: true
 ---
 
-danger
+::: en
+::: danger
 
 1. `Pikpak`：Who makes the request, who can use it
    - For example, if you build an OpenList on the server with IP `1.1.1.1`, but your own IP is `2.2.2.2`, you cannot play or download it.
@@ -31,7 +32,8 @@ danger
    - The specific size of the file is currently unknown
      :::
 
-danger
+::: zh-CN
+::: danger
 
 1. `个人Pikpak`：谁发出请求谁能用
    - 例如你在 IP `1.1.1.1`服务器搭建的OpenList，但是你本人IP是`2.2.2.2`，无法播放下载，或者开启代理中转策略

@@ -33,7 +33,8 @@ star: true
 
 ---
 
-tip
+::: en
+::: tip
 It is not applicable to the home version. If you are in the configuration process, it does not match the options that appear in the tutorial. It may not be supported
 :::
 ::: en
@@ -52,7 +53,8 @@ Login to get our<Badge text="tenant ID" type="info" vertical="middle" />
 
 ---
 
-tip
+::: zh-CN
+::: tip
 不适用于家庭版，如果你在配置过程中，与教程中出现的选项不符可能是不支持
 :::
 ::: zh-CN
@@ -66,7 +68,8 @@ tip
 
 ## **新建过程** { lang="zh-CN" }
 
-danger Read the precautions carefully
+::: en
+::: danger Read the precautions carefully
 Please read carefully the following **`serial numbers , view in sequence`** , if there is any error, please feedback in time
 :::
 tabs#onedrive_app
@@ -111,7 +114,8 @@ https://entra.microsoft.com/TokenAuthorize?admin_consent=True&tenant={Tenant ID}
 ![onedriveapp](/img/drivers/onedrive_app/od_app_ok.png)
 :::
 
-danger 请仔细阅读注意事项
+::: zh-CN
+::: danger 请仔细阅读注意事项
 请仔细阅读下面的 **`序号，依次查看`** ，如有错误可及时反馈
 :::
 tabs#onedrive_app

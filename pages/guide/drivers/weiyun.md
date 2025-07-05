@@ -22,7 +22,8 @@ star: true
 ::: en
 Tencent Weiyun official website: **https://www.weiyun.com**
 :::
-tip Weiyun login validity period reminder
+::: en
+::: tip Weiyun login validity period reminder
 
 - QQ: The login can only keep alive for 48 hours at present, and the cookie has to be replaced
 - WeChat: no such problem, use token
@@ -32,7 +33,8 @@ tip Weiyun login validity period reminder
 ::: zh-CN
 腾讯微云官网：**https://www.weiyun.com**
 :::
-tip 微云登录有效期提示
+::: zh-CN
+::: tip 微云登录有效期提示
 
 - QQ：登录目前只能保活48小时就得更换cookie
 - 微信：无此问题，用的是token

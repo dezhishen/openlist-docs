@@ -11,17 +11,21 @@ categories:
   - drivers
 ---
 
-tip
+::: en
+::: tip
 Developed with the official [**115 Open Platform API**](https://open.115.com)
 :::
-danger Please read the precautions carefully
+::: en
+::: danger Please read the precautions carefully
 Please use your account in a standardized manner. Do not use it for distribution services including but not limited to **`multi-person sharing`**, **`image hosting, software hosting`** and **`video external links to video websites for playback`**, as well as some other irregular uses not mentioned above. You will be responsible for the consequences of your account being blocked.
 :::
 
-tip
+::: zh-CN
+::: tip
 使用官方 [**115开放平台 API**](https://open.115.com) 开发
 :::
-danger 请仔细阅读注意事项
+::: zh-CN
+::: danger 请仔细阅读注意事项
 请规范使用帐号，包含但不限于 **`多人共享使用`**、**`图床、软件床`** 和 **`视频外链到视频网站播放`** 等分发服务以及一些没有提到的不规范使用的方式导致帐号被封禁的，后果自负
 :::
 
@@ -49,13 +53,15 @@ warning 注意事项
 
 ### 2.1.开放平台注册应用（可选，如果使用OpenList/公益服务器/自建服务器内置的密钥对，则不用创建） { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 Please register the application according to the requirements of the 115 Open Platform.
 :::
 ::: en
 Open Platform address: [115 Open Platform: https://open.115.com](https://open.115.com)
 :::
-tip
+::: zh-CN
+::: tip
 请根据115 开放平台的要求注册应用
 :::
 ::: zh-CN
@@ -293,11 +299,13 @@ failed get objs: failed to list objs: code: 40140116, message: no auth
 
 ## 6.使用其他 APP ID 获取刷新令牌（尚未实现） { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 Under development, the tutorial has not been updated yet. Stay tuned!
 :::
 
-tip
+::: zh-CN
+::: tip
 开发中, 教程暂未更新, 敬请期待!
 :::
 
@@ -305,11 +313,13 @@ tip
 
 ## 7.手机扫码授权PKCE模式（尚未实现） { lang="zh-CN" }
 
-tip
+::: en
+::: tip
 Under development, the tutorial has not been updated yet. Stay tuned!
 :::
 
-tip
+::: zh-CN
+::: tip
 开发中, 教程暂未更新, 敬请期待!
 :::
 

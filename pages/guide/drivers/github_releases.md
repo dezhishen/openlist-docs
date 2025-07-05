@@ -20,11 +20,13 @@ sticky: true
 star: true
 ---
 
-tip
+::: en
+::: tip
 GitHub API rate limits: The primary rate limit for unauthenticated requests is 60 requests per hour. Making API requests using a personal access token counts toward your personal rate limit of 5,000 requests per hour.
 :::
 
-tip
+::: zh-CN
+::: tip
 GitHub API 速率限制：未经身份验证的请求的主要速率限制为每小时 60 个请求。使用个人访问令牌发出 API 请求计入您每小时 5000 个请求的个人速率限制。
 :::
 
