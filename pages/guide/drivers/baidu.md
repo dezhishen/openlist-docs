@@ -213,7 +213,8 @@ The root foler to mount, defaults to `/`
 
 ### **添加 "User-Agent" 使用示例** { lang="zh-CN" }
 
-:danger If you don't know how to set "User-Agent" see here
+::: en
+::: danger If you don't know how to set "User-Agent" see here
 ==The following methods are limited to Baidu super member users==
 ==Prompt again The following methods are limited to Baidu super member users==
 It will only be useful if a member finishes modifying **`"User-Agent"`** (choose official and 302)
@@ -230,30 +231,9 @@ If you don’t change **`"User-Agent"`**, you can enable ==Web Agent==, the disa
         </video>
     </div>
 </div>
-:::tabs#ua
-@tab Web plugin
-- The advantage of using a browser plug-in to modify is that it can be played directly online, of course, downloading is also possible.
-Example <Badge text="1" type="info" vertical="middle" />: If you really don’t know it, you can take a look at an example on the web page: **https://www.bilibili.com/video/BV1UA4y1X7J8**
-Example <Badge text="2" type="info" vertical="middle" />: Another plugin method covering 360, Chrome, Edge: **https://youtu.be/PP6b0WSzYMc**
-![alist](/img/drivers/baidu/bdUA.png)
-@tab Aria2
-1. First follow the figure below to set the **`user-agent" `**, and then click the button option in the lower right corner, click ** gear ** (local settings) to configure the parameters well 
-2. Then open the third button option in the lower right corner (**Open the check box**), and then go to the list to select the file we want to download
-3. Select the files we need to download. After selecting, there will be a row of buttons. Select the second option on the right. One is sent to Aria2.
-If you use the webpage to modify the **`user-agent`**, you do not need to configure the `UA` of ==**Aria2**==, and you can download it directly to Aria2
-![alist](/img/drivers/baidu/aria2-ua.png)
-@tab Motrix
-1. First follow the figure below to set the **`user-agent" `**, and then click the button option in the lower right corner, click ** gear ** (local settings) to configure the parameters well 
-2. Then open the third button option in the lower right corner (**Open the check box**), and then go to the list to select the file we want to download
-3. Select the files we need to download. After selecting, there will be a row of buttons. Select the second option on the right. One is sent to Aria2.
-If you use the webpage to modify the **`user-agent`**, you do not need to configure the `UA` of ==**Motrix**==, and you can download it directly to Aria2
-- Motrix Download link：[Motrix Official website](https://motrix.app/)，[Motrix-GitHub](https://github.com/agalwood/Motrix)
-![alist](/img/drivers/baidu/motrix-ua.png)
 :::
-:
-<br/>
-:::
-:danger 如果你不会设置 "User-Agent" 请看这里
+::: zh-CN
+::: danger 如果你不会设置 "User-Agent" 请看这里
 ==以下方法仅限于有百度超级会员用户使用==
 ==再次提示 以下方法仅限于有百度超级会员用户使用==
 有会员改完 **`"User-Agent"`** 才会有用（选择官方和302）
@@ -269,29 +249,72 @@ If you use the webpage to modify the **`user-agent`**, you do not need to config
         </video>
     </div>
 </div>
-:::tabs#ua
-@tab 网页插件
+:::
+
+### Web plugin { lang="en" }
+
+### 网页插件 { lang="zh-CN" }
+
+::: zh-CN
+
 - 使用浏览器插件修改的好处是 可以直接在线播放，当然了下载也是可以的。
-例<Badge text="1" type="info" vertical="middle" />：实在不会的可以看看一个Web网页端的例子： **https://www.bilibili.com/video/BV1UA4y1X7J8**
-例<Badge text="2" type="info" vertical="middle" />：另一款插件方法涵盖360，Chrome，Edge： **https://youtu.be/PP6b0WSzYMc**
-![alist](/img/drivers/baidu/bdUA.png)
-@tab Aria2
+  例<Badge text="1" type="info" vertical="middle" />：实在不会的可以看看一个Web网页端的例子： **https://www.bilibili.com/video/BV1UA4y1X7J8**
+  例<Badge text="2" type="info" vertical="middle" />：另一款插件方法涵盖360，Chrome，Edge： **https://youtu.be/PP6b0WSzYMc**
+  ![alist](/img/drivers/baidu/bdUA.png)
+  :::
+  ::: en
+- The advantage of using a browser plug-in to modify is that it can be played directly online, of course, downloading is also possible.
+  Example <Badge text="1" type="info" vertical="middle" />: If you really don’t know it, you can take a look at an example on the web page: **https://www.bilibili.com/video/BV1UA4y1X7J8**
+  Example <Badge text="2" type="info" vertical="middle" />: Another plugin method covering 360, Chrome, Edge: **https://youtu.be/PP6b0WSzYMc**
+  ![alist](/img/drivers/baidu/bdUA.png)
+  :::
+
+### Aria2 { lang="en" }
+
+### Aria2 { lang="zh-CN" }
+
+::: zh-CN
+
 1. 先照着下图设置好 **`"User-Agent"`**，然后在**右下角**的按钮选项，点击**齿轮**(本地设置)，配置好参数
 2. 然后在右下角打开第三个按钮选项（**打开复选框**），打开后去列表选择我们要下载的文件，
 3. 把我们需要下载的文件**进行勾选**，勾选好后下方会出现**一排按钮**，选择右侧第二个选项下载里面有一个**发送到Aria2**
-如果你使用了网页修改 **`"User-Agent"`**，可以不配置 ==**Aria2**== 的`UA`，直接推送到Aria2也能下载
-![alist](/img/drivers/baidu/aria2-ua.png)
-@tab Motrix
+   如果你使用了网页修改 **`"User-Agent"`**，可以不配置 ==**Aria2**== 的`UA`，直接推送到Aria2也能下载
+   ![alist](/img/drivers/baidu/aria2-ua.png)
+   :::
+   ::: en
+4. First follow the figure below to set the **`user-agent" `**, and then click the button option in the lower right corner, click ** gear ** (local settings) to configure the parameters well
+5. Then open the third button option in the lower right corner (**Open the check box**), and then go to the list to select the file we want to download
+6. Select the files we need to download. After selecting, there will be a row of buttons. Select the second option on the right. One is sent to Aria2.
+   If you use the webpage to modify the **`user-agent`**, you do not need to configure the `UA` of ==**Aria2**==, and you can download it directly to Aria2
+   ![alist](/img/drivers/baidu/aria2-ua.png)
+   :::
+
+### Motrix { lang="en" }
+
+### Motrix { lang="zh-CN" }
+
+::: en
+
+1. First follow the figure below to set the **`user-agent" `**, and then click the button option in the lower right corner, click ** gear ** (local settings) to configure the parameters well
+2. Then open the third button option in the lower right corner (**Open the check box**), and then go to the list to select the file we want to download
+3. Select the files we need to download. After selecting, there will be a row of buttons. Select the second option on the right. One is sent to Aria2.
+   If you use the webpage to modify the **`user-agent`**, you do not need to configure the `UA` of ==**Motrix**==, and you can download it directly to Aria2
+
+- Motrix Download link：[Motrix Official website](https://motrix.app/)，[Motrix-GitHub](https://github.com/agalwood/Motrix)
+  ![alist](/img/drivers/baidu/motrix-ua.png)
+  <br/>
+  :::
+
+::: zh-CN
+
 1. 先照着下图设置好 **`"User-Agent"`**，然后在**右下角**的按钮选项，点击**齿轮**(本地设置)，配置好参数
 2. 然后在右下角打开第三个按钮选项（**打开复选框**），打开后去列表选择我们要下载的文件，
 3. 把我们需要下载的文件**进行勾选**，勾选好后下方会出现**一排按钮**，选择右侧第二个选项下载里面有一个**发送到Aria2**
-如果你使用了网页修改 **`"User-Agent"`**，可以不配置 ==**Motrix**== 的`UA`，直接推送到Aria2也能下载
+   如果你使用了网页修改 **`"User-Agent"`**，可以不配置 ==**Motrix**== 的`UA`，直接推送到Aria2也能下载
+
 - Motrix下载链接：[Motrix官网](https://motrix.app/)，[Motrix-GitHub](https://github.com/agalwood/Motrix)
-![alist](/img/drivers/baidu/motrix-ua.png)
-:::
-:
-<br/>
-:::
+  ![alist](/img/drivers/baidu/motrix-ua.png)
+  :::
 
 ## **Upload Config** { lang="en" }
 
@@ -307,16 +330,21 @@ Official Documentation: [百度网盘开放平台 - 上传 - 能力说明](https
 - Custom Upload Slice Size: Allows you to specify the size of each slice. Note that there are limitations, and this feature is available to VIPs only.
 - Low Bandwidth Upload Mode: Attempts to address the frequent `Client.Timeout exceeded while awaiting headers` errors encountered in low upload bandwidth scenarios (e.g., residential broadband). When enabled, it uses the smallest possible slice size.
   <br/>
-  :::
-  ::: zh-CN
-  官方文档：[百度网盘开放平台 - 上传 - 能力说明](https://pan.baidu.com/union/doc/3ksg0s9ye)
-  > 百度网盘要求在 30s 内完成单个分片的上传，所以上传文件时并发过高可能会导致大量失败。
+
+:::
+
+::: zh-CN
+官方文档：[百度网盘开放平台 - 上传 - 能力说明](https://pan.baidu.com/union/doc/3ksg0s9ye)
+
+> 百度网盘要求在 30s 内完成单个分片的上传，所以上传文件时并发过高可能会导致大量失败。
+
 - 上传线程：同时上传几个分片
 - 上传 API：上传的域名端点
 - 自定义上传分片大小：用于指定分片大小，有限制，仅会员可用
 - 低上传带宽模式：尝试解决低上传带宽场景（如家宽）下，频繁出现 `Client.Timeout exceeded while awaiting headers` 的问题。开启后会使用尽可能小的分片大小。
   <br/>
-  :::
+
+:::
 
 ## **The default download method used** { lang="en" }
 
