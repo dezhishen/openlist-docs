@@ -76,14 +76,14 @@ There are two ways to fill in
 2. The second is to directly mount the root folder path, using the `renaming` method, it is strongly recommended to use :heavy_check_mark:
    -Paths filling example:
    `bash title="path"
-   #Example 1 Directly write the root folder
-   merge: /file1
-   merge: /file2
-   #Example 2 Mount different path folders for merging
-   merge: /file1/localtest233
-   merge: /file2/videos/TV series
-   merge: /file3 2/TV/Domestic TV Series/Station XX
-   `
+#Example 1 Directly write the root folder
+merge: /file1
+merge: /file2
+#Example 2 Mount different path folders for merging
+merge: /file1/localtest233
+merge: /file2/videos/TV series
+merge: /file3 2/TV/Domestic TV Series/Station XX
+`
    According to the second method, we can `merge` and display different folders, which is convenient and quick
    :::
    ::: zh-CN

@@ -55,7 +55,7 @@ Lanzuo cloud disk root directory ID, the default is `-1`，If you use `Url`Type 
   - <img src="/img/drivers/lanzou/lanzou2.gif" alt="LanZou folder_id" style="zoom:50%;" />
     :::
     ::: zh-CN
-        蓝奏云盘根目录ID，默认为`-1`，如果使用`链接`类型挂载根文件夹ID请看[填写说明](#填写说明)的第三条
+            蓝奏云盘根目录ID，默认为`-1`，如果使用`链接`类型挂载根文件夹ID请看[填写说明](#填写说明)的第三条
 - **其他文件夹ID**
   - 两种获取方式（看下图即可）
   - <img src="/img/drivers/lanzou/lanzou2.gif" alt="LanZou folder_id" style="zoom:50%;" />
