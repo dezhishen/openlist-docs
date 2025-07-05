@@ -104,25 +104,25 @@ The <span style="font-weight: bold;color: blue;">blue</span> field in the link i
   - 可以参考下面提取示例或者借用工具
   <br/>
   链接中<span style="font-weight: bold;color: blue;">蓝色</span>字段是我们需要的`RefreshToken`
-  <div style="btop: 3px solid red;padding: 10px;">
-  	<ul>
-  		<li>地址栏复制链接获取<code>RefreshToken</code>：</li><br/>
-  		<ul><br/>
-  			<li style="font-weight: bold;">解码前：</li>
-  			<ul>
-                  <li>https%3A%2F%2Fstatic.2dland.cn%2Fuser%2Flanding%2F%3Ftype%3Doauth2-response%26payload%3D%7B%22scope%22%3A%22openid%20profile%20email%20phone%22%2C%22<span style="font-weight: bold;color: #ff00c6;">refreshToken</span>%22%3A<span style="font-weight: bold;color: red;">%22</span><span style="font-weight: bold;color: blue;">rt__2xxxx5_2xxxxxa-4xx7-4xxa-9xx3-exxxxxxxxxx4</span><span style="font-weight: bold;color: red;">%22</span>%2C%22state%22%3A%2210xxxx4d3-4cxa-4xx8-axxb-1xxxf3%22%2C%22callback%22%3A%22at_callback_d4dxxxxxxxxxxxxxxxxxxxxxxxxxef_ly8og7b8%22%7D</li>
-  			</ul><br/>
-  			<li style="font-weight: bold;">解码后：</li>
-  			<ul>
-  				<li>https://static.2dland.cn/user/landing/?type=oauth2-response&payload={"scope":"openid profile email phone","<span style="font-weight: bold;color: #ff00c6;">refreshToken</span>":<span style="font-weight: bold;color: red;">"</span><span style="font-weight: bold;color: blue;">rt__2xxxx5_2xxxxxa-4xx7-4xxa-9xx3-exxxxxxxxxx4</span><span style="font-weight: bold;color: red;">"</span>,"state":"10xxxx4d3-4cxa-4xx8-axxb-1xxxf3","callback":"at_callback_d4dxxxxxxxxxxxxxxxxxxxxxxxxxef_ly8og7b8"}</li>
-  			</ul><br/>
-              <li style="font-weight: bold;">如果实在看不出来可以借助工具进行解码：<a href="https://tool.chinaz.com/tools/urlencode.aspx">https://tool.chinaz.com/tools/urlencode.aspx</a>
-  			</li>
-  		</ul>
-  	</ul>
-      <img src="/img/drivers/halalcloud/halalcloud_url.png">
-  </div>
-  <br/>
+   <div style="btop: 3px solid red;padding: 10px;">
+   	<ul>
+   		<li>地址栏复制链接获取<code>RefreshToken</code>：</li><br/>
+   		<ul><br/>
+   			<li style="font-weight: bold;">解码前：</li>
+   			<ul>
+                   <li>https%3A%2F%2Fstatic.2dland.cn%2Fuser%2Flanding%2F%3Ftype%3Doauth2-response%26payload%3D%7B%22scope%22%3A%22openid%20profile%20email%20phone%22%2C%22<span style="font-weight: bold;color: #ff00c6;">refreshToken</span>%22%3A<span style="font-weight: bold;color: red;">%22</span><span style="font-weight: bold;color: blue;">rt__2xxxx5_2xxxxxa-4xx7-4xxa-9xx3-exxxxxxxxxx4</span><span style="font-weight: bold;color: red;">%22</span>%2C%22state%22%3A%2210xxxx4d3-4cxa-4xx8-axxb-1xxxf3%22%2C%22callback%22%3A%22at_callback_d4dxxxxxxxxxxxxxxxxxxxxxxxxxef_ly8og7b8%22%7D</li>
+   			</ul><br/>
+   			<li style="font-weight: bold;">解码后：</li>
+   			<ul>
+   				<li>https://static.2dland.cn/user/landing/?type=oauth2-response&payload={"scope":"openid profile email phone","<span style="font-weight: bold;color: #ff00c6;">refreshToken</span>":<span style="font-weight: bold;color: red;">"</span><span style="font-weight: bold;color: blue;">rt__2xxxx5_2xxxxxa-4xx7-4xxa-9xx3-exxxxxxxxxx4</span><span style="font-weight: bold;color: red;">"</span>,"state":"10xxxx4d3-4cxa-4xx8-axxb-1xxxf3","callback":"at_callback_d4dxxxxxxxxxxxxxxxxxxxxxxxxxef_ly8og7b8"}</li>
+   			</ul><br/>
+               <li style="font-weight: bold;">如果实在看不出来可以借助工具进行解码：<a href="https://tool.chinaz.com/tools/urlencode.aspx">https://tool.chinaz.com/tools/urlencode.aspx</a>
+   			</li>
+   		</ul>
+   	</ul>
+       <img src="/img/drivers/halalcloud/halalcloud_url.png">
+   </div>
+   <br/>
   :::
 
 ## **Other parameters** { lang="en" }

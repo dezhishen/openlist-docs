@@ -62,14 +62,18 @@ Aliyundrive Open, developed based on the official authorization API.
 
 ::: en
 A **AliyunDrive** account is required.  
- warning Notes  
+:::
+::: en
+::: warning Notes  
 Speed and stability are related to the performance/network of the machine running OpenList and the load on the AliYun Drive server.  
 :::
 ::: en  
 :::
 ::: zh-CN
 必须有 **阿里云盘** 的帐号
-warning 注意事项
+:::
+::: zh-CN
+::: warning 注意事项
 速度与稳定性与OpenList 的运行机器的性能/网络、阿里云盘服务器的负载有关
 :::
 
@@ -122,8 +126,8 @@ Open Platform URL: [AliYun Drive Open Platform](https://www.alipan.com/developer
 5. In the pop-up window, scan the code to log in to your AliYun Drive.  
    ![aliyun-open-03](/img/drivers/aliyun/aliyun-open-03.png)
 6. After successful authorization, the page will display your `Access Token` and `Refresh Token`. Please copy and save these two tokens.  
-   ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-d.png#dark)  
-   ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-l.png#light)  
+    ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-d.png#dark)  
+    ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-l.png#light)  
    :::
    ::: zh-CN
 7. 访问[api.oplist.org](https://api.oplist.org) **⚠️如果使用公益服务器/自建服务器，请访问公益服务器/自建服务器的地址**
@@ -270,7 +274,7 @@ Normal users can leave it blank. If you have applied for official authorization,
 - **Version v.3.27.0** enhances instant upload: files can be instantly transferred between `115 Network Disk` and AliYun Drive by direct copying.
   - Prerequisite: To instantly transfer a file from AliYun Drive to 115, the file must already exist in 115; otherwise, it will be a normal copy task.
   - If instantly transferring a file from 115 to AliYun Drive, enable the instant upload option for AliYun Drive; otherwise, it will be a normal upload.  
-    It is recommended to locally deploy an OpenList on your home computer, add a `local storage` and `AliYun Drive`, and use copy instant upload to save resources.  
+     It is recommended to locally deploy an OpenList on your home computer, add a `local storage` and `AliYun Drive`, and use copy instant upload to save resources.  
     :::
     ::: zh-CN
 - **v.3.22.1** 版本 新增功能
@@ -320,8 +324,8 @@ You can select the cloud drive type according to your needs. When adding a drive
 - **Default**: For users with a talent level, it defaults to displaying `non-backup file` content; for users without a talent level, it defaults to displaying `backup file` content.
 - **Resource Library**: Corresponding to the `non-backup file content` of the cloud drive.
 - **Backup Disk**: Corresponding to the `backup files` of the cloud drive.  
-  After AliYun Drive updated to version `6.0` in July 2024, the backup disk was changed to merge backup files and all files, but in terms of OpenAPI, it still distinguishes between `Resource Library` and `Backup Disk` types.  
-  ![](/img/drivers/aliyun/aliyun_type.png)  
+   After AliYun Drive updated to version `6.0` in July 2024, the backup disk was changed to merge backup files and all files, but in terms of OpenAPI, it still distinguishes between `Resource Library` and `Backup Disk` types.  
+   ![](/img/drivers/aliyun/aliyun_type.png)  
   :::
   ::: zh-CN
   云盘类型可以选择，可以自己的需求选择不同类型，使用 v3.25.1及以上版本的OpenList添加驱动时进行设置，默认选择的是`默认`类型

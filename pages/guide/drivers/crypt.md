@@ -93,8 +93,7 @@ If you have not uploaded any file in the Crypt, you may modify the configuration
 If you have data in Crypt, and changed the configuration, `Crypt` will try to filter out illegal files/folders, but the illegal data still exist in the remote storage
 
 - **Illegal means data that is encrypted by another config**
-  :::
-  en
+  ::: en
   ::: warning
   There are 5 methods for the encryption combination, (in fact 6 types) Because only the **folder encryption is turned on, the file name is not encrypted** and the configuration does not take effect (the first one of the example below)
 
@@ -124,8 +123,7 @@ If you have data in Crypt, and changed the configuration, `Crypt` will try to fi
 如果在已有数据的情况下更改配置，`Crypt`尽力过滤非法文件/目录，但非法数据不会被删除
 
 - **非法文件/目录指的是另一种配置生成的加密数据**
-  :::
-  zh-CN
+  ::: zh-CN
   ::: warning
   关于加密组合一共有5种方式，（实际上是6种）因为只开启**文件夹加密，文件名不加密**这样的配置不生效（下面举例的第一种）
 

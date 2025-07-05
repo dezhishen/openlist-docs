@@ -62,13 +62,13 @@ Then enter https://www.terabox.com in the address bar of this tab to enter the w
 - Root folder id is `/`
 - Mount other single subdirectories, put a picture for reference
   - <img src="/img/drivers/terabox/terabox3.png" alt="Demo"/>
-    <br/>
+        <br/>
     :::
     ::: zh-CN
 - 根目录为 `/`
 - 挂载其他单个子目录，放一张图参考一下吧
   - <img src="/img/drivers/terabox/terabox3.png" alt="Demo"/>
-    <br/>
+        <br/>
     :::
 
 ## **Download error using Proxy Url link** { lang="en" }

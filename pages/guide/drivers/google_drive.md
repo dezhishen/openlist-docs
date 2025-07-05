@@ -8,27 +8,19 @@ top: 330
 categories:
   - guide
   - drivers
-# A page can have multiple tags
-tag:
-  - Storage
-  - Guide
-  - '本地代理'
-  - '官方'
-# this page is sticky in article list
-sticky: true
-# this page will appear in starred articles
-star: true
 ---
 
 支持团队盘（根目录ID填写团队盘的目录ID）
 
 ## 1.必要条件
 
+::: zh-CN
 ::: warning 注意事项
 
 1. 搭建OpenList服务的机器首先要能连接到Google网盘才可以喔~
 2. 必须启动谷歌云盘API服务，启用方式见[启用 Google Drive API 的 API](#_2-1-启用-google-drive-api-的-api)
    > 参考 [Google Workspace>Google Drive>指南](https://developers.google.com/workspace/drive/api/quickstart/js): https://developers.google.com/workspace/drive/api/quickstart/js
+   > :::
    > :::
 
 ## 2.准备接入
