@@ -53,13 +53,17 @@ Lanzuo cloud disk root directory ID, the default is `-1`，If you use `Url`Type 
 - **Additional Folder ID**
   - Two ways to obtain (see the picture below)
   - <img src="/img/drivers/lanzou/lanzou2.gif" alt="LanZou folder_id" style="zoom:50%;" />
-    :::
-    ::: zh-CN
-            蓝奏云盘根目录ID，默认为`-1`，如果使用`链接`类型挂载根文件夹ID请看[填写说明](#填写说明)的第三条
+
+:::
+
+::: zh-CN
+蓝奏云盘根目录ID，默认为`-1`，如果使用`链接`类型挂载根文件夹ID请看[填写说明](#填写说明)的第三条
+
 - **其他文件夹ID**
   - 两种获取方式（看下图即可）
   - <img src="/img/drivers/lanzou/lanzou2.gif" alt="LanZou folder_id" style="zoom:50%;" />
-    :::
+
+:::
 
 ## **Account** { lang="en" }
 
@@ -122,13 +126,17 @@ Use cookie type or account type to add prompt `not find file page param` error b
 - Solution: It is recommended to use account type to add
   - Change the sharing link to `https://wwop.lanzoul.com` and save it. If it still doesn't work, refresh the lower right corner.
   - lanzoul will also make changes in the future
-    :::
-    ::: zh-CN
-    使用Cookie类型或者账户类型添加提示`not find file page param`错误是因为蓝奏云更换了域名
+
+:::
+
+::: zh-CN
+使用Cookie类型或者账户类型添加提示`not find file page param`错误是因为蓝奏云更换了域名
+
 - 解决方案：建议使用账户类型添加
   - 把分享链接改成 `https://wwop.lanzoul.com`保存即可，如果还是不可以，右下角刷新一下。
   - 后续蓝奏可能还会更改。
-    :::
+
+:::
 
 ## **Fill in instructions** { lang="en" }
 
@@ -144,17 +152,18 @@ Use cookie type or account type to add prompt `not find file page param` error b
    - Fill in `root folder ID`: aaabbbccc
    - Share Password: if there is a password
      ![lanzou](/img/drivers/lanzou/lanzou_add.png)
-     :::
-     ::: zh-CN
-4. **账户模式**：类型选择`账户`，填写`账户`和`密码`选项，以及`根文件夹ID`(选填,默认为根目录全部文件)
-5. **Cookie模式**：类型选择`Cookie`，填写`Cookie`，以及`根文件夹ID`(选填,默认为根目录全部文件)
-6. **链接模式**：类型选择`链接`，填写`分享链接`和`根文件夹ID`以及 `分享密码(如果有密码)`两个选项就可以
-   - 分享链接是 :point_right: https://xxx.lanzou.com/aaabbbccc :point_left: 这种格式的
-   - 在`分享链接`填写：https://xxx.lanzou.com
-   - 在`根文件夹ID`填写：aaabbbccc
-   - 在`分享密码`填写：有密码就写没有就不用写
-     ![lanzou](/img/drivers/lanzou/lanzou_add.png)
-     :::
+
+:::
+
+::: zh-CN 4. **账户模式**：类型选择`账户`，填写`账户`和`密码`选项，以及`根文件夹ID`(选填,默认为根目录全部文件) 5. **Cookie模式**：类型选择`Cookie`，填写`Cookie`，以及`根文件夹ID`(选填,默认为根目录全部文件) 6. **链接模式**：类型选择`链接`，填写`分享链接`和`根文件夹ID`以及 `分享密码(如果有密码)`两个选项就可以
+
+- 分享链接是 :point_right: https://xxx.lanzou.com/aaabbbccc :point_left: 这种格式的
+- 在`分享链接`填写：https://xxx.lanzou.com
+- 在`根文件夹ID`填写：aaabbbccc
+- 在`分享密码`填写：有密码就写没有就不用写
+  ![lanzou](/img/drivers/lanzou/lanzou_add.png)
+
+:::
 
 ### **The default download method used** { lang="en" }
 

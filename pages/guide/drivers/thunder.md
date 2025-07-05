@@ -645,8 +645,11 @@ In the request in the package `https://xluser-ssl.xunleix.com/v1/shield/captcha/
   - `Client id`、`Client secret`
     ![xunlei](/img/drivers/xunlei/xlx_z2.jpg)
     <br/>
-    :::
-    ::: zh-CN
+
+:::
+
+::: zh-CN
+
 - `验证码` ：无需填写
 - `设备id`：通过 MD5 计算的值，用于判断登录的设备
 - `客户端ID`, `客户端密钥`, `客户端版本`, `包名`：与签名有关，根据实际情况填写
@@ -1041,8 +1044,11 @@ In the request in the package `https://xluser-ssl.xunlei.com/v1/shield/captcha/i
   - `Client id`、`Client secret`、`Refresh token`
     ![xunlei](/img/drivers/xunlei/x_br_add2.png)
     <br/>
-    :::
-    ::: zh-CN
+
+:::
+
+::: zh-CN
+
 - `验证码` ：无需填写
 - `设备id`：通过 MD5 计算的值，用于判断登录的设备
 - `客户端ID`, `客户端密钥`, `客户端版本`, `包名`：与签名有关，根据实际情况填写

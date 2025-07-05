@@ -120,7 +120,8 @@ Open Platform address: [115 Open Platform: https://open.115.com](https://open.11
 12. 授权成功后，页面会显示你的 `访问令牌（Access Token）` 和 `刷新令牌（Refresh Token）`，请复制并保存这两个令牌。
     ![115-open-04](/img/drivers/115/115-open-04-d.png#dark)
     ![115-open-04](/img/drivers/115/115-open-04-l.png#light)
-    :::
+
+:::
 
 ## 3. Adding 115 Network Disk to OpenList { lang="en" }
 
@@ -193,7 +194,8 @@ The `root folder ID` of this folder is `249163533602609229`.
     ![115-open-06-02-d](/img/drivers/115/115-open-06-02-d.png#dark)
     ![115-open-06-02-l](/img/drivers/115/115-open-06-02-l.png#light)
 18. 点击`添加`按钮，完成115网盘的添加。
-    :::
+
+:::
 
 ## 4. Instructions on the `Use online api` Option { lang="en" }
 

@@ -69,13 +69,17 @@ WoPan address：**https://pan.wo.cn/**
   - Single folder ID：Unknown (wait for replenishment)
 - **Family cloud**：Unknown (wait for replenishment)
   - Family cloud Single folder ID：Unknown (wait for replenishment)
-    :::
-    ::: zh-CN
+
+:::
+
+::: zh-CN
+
 - 个人云：**0**
   - 单独文件夹ID：未知(后续补充)
 - 家庭云：未知(后续补充)
   - 家庭云单独文件夹ID：未知(后续补充)
-    :::
+
+:::
 
 ## Type { lang="en" }
 

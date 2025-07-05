@@ -30,7 +30,8 @@ star: true
 
 2. `PikPak Share`：There is a size limit. After the specified file size is exceeded, only 40%~50% can be played.
    - The specific size of the file is currently unknown
-     :::
+
+:::
 
 ::: zh-CN
 ::: danger
@@ -42,7 +43,8 @@ star: true
 
 2. `分享Pikpak`：有大小限制，超出指定文件大小后只能播放40%~50%
    - 具体多大文件暂时未知具体数值
-     :::
+
+:::
 
 ## **PikPak** { lang="en" }
 

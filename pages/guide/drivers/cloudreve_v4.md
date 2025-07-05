@@ -46,7 +46,8 @@ Cloudreve V4 supports authentication using Token. This means the mounting authen
 8. 仅 `Access Token`：能够临时使用，但会过期，且无法续期
 9. 无：匿名用户，适用于公开分享
 10. [引用](../drivers/common.html#引用)：`备注`填写 `ref:/{挂载路径}`，从 `已挂载的存储` 中引用认证、令牌等
-    :::
+
+:::
 
 ### Steps to get tokens { lang="en" }
 

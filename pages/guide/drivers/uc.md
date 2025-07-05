@@ -136,15 +136,16 @@ TV 版支持 `302`，但是只能 `访问` 和 `下载` 两个操作，其它操
    - `Refresh token`、`Device id`、`Query token`,It will be filled in automatically, no manual filling is required - Please do not edit manually and modify it
      ![](/img/drivers/tv_qrcode.png)
      <br/>
-     :::
-     ::: zh-CN
-4. 选择 `UCTV` 驱动，填写挂载路径，然后保存
-5. 返回全部驱动页面，使用手机APP扫描二维码（如果不显示二维码，驱动右上角点击点击`表格布局` 从列表模式切换成表格模式）
-6. 扫码确认后，禁用驱动，再启用`驱动`即可使用
-   - `Refresh token 刷新令牌`、`Device id 设备ID `、`Query token` 会自动填充，不需要人工填写 - 请不要进行编辑手动修改
-     ![](/img/drivers/tv_qrcode.png)
-     <br/>
-     :::
+
+:::
+
+::: zh-CN 4. 选择 `UCTV` 驱动，填写挂载路径，然后保存5. 返回全部驱动页面，使用手机APP扫描二维码（如果不显示二维码，驱动右上角点击点击`表格布局` 从列表模式切换成表格模式）6. 扫码确认后，禁用驱动，再启用`驱动`即可使用
+
+- `Refresh token 刷新令牌`、`Device id 设备ID `、`Query token` 会自动填充，不需要人工填写 - 请不要进行编辑手动修改
+  ![](/img/drivers/tv_qrcode.png)
+  <br/>
+
+:::
 
 ### **Root Folder ID** { lang="en" }
 

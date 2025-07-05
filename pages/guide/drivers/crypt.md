@@ -62,17 +62,21 @@ E.g:
 - To encrypt files, you need to upload them to the newly created "Crypt" drive. Encryption will only be applied when files are uploaded to this driver.
   - Encrypted files are stored in **`remote path`** , and they can't be opened normally due to the encryption
   - If you want to open them, you need to view them in the `Crypt` Driver Folder
-    :::
-    ::: zh-CN
-    我们只需要在现在已经挂载的驱动(网盘)中新建一个**空白文件夹**，名称随意，准备给加密(Crypt)驱动使用
-    然后把我们新建的空白文件夹名称填写到我们新建的`Crypt`驱动配置中的`加密后文件存储路径`选项
-    例如：
+
+:::
+
+::: zh-CN
+我们只需要在现在已经挂载的驱动(网盘)中新建一个**空白文件夹**，名称随意，准备给加密(Crypt)驱动使用
+然后把我们新建的空白文件夹名称填写到我们新建的`Crypt`驱动配置中的`加密后文件存储路径`选项
+例如：
+
 - 我们原本的驱动路径是`/123`，我们在123这个目录下新建了一个`air空白文件夹`
 - 我们就要在`Crypt`驱动的`加密后文件存储路径`选项填写`/123/air`
 - 我们上传文件需要在 新建的`Crypt`驱动目录进行上传文件才会进行加密
   - 加密文件我们去 **`加密后文件存储路径`** 查看会看到加密后的文件，无法正常打开查看
   - 如果要打开查看，我们需要在挂载的`Crypt`驱动文件夹查看
-    :::
+
+:::
 
 ## **Config Example** { lang="en" }
 
@@ -156,9 +160,12 @@ If you don’t understand, you can use the default configuration
   - If you enabled <Badge text="Filename" type="tip" vertical="middle" /> encryption，It will be like <Badge text="Lower left corner pic" color="rgb(78,130,184)" vertical="middle" /> In this way, the file name is also confused with encryption, no suffix and the original file name，others can't know what it is, but it can be viewed in `crypt`（<Badge text="The folder displayed on the right" color="rgb(0.0.0.0)" vertical="middle" />）
     ![image-20230721230425597](/img/drivers/crypt/crypt-demo2.png)
     <br/>
-    :::
-    ::: zh-CN
-    如果看不懂可以使用默认配置
+
+:::
+
+::: zh-CN
+如果看不懂可以使用默认配置
+
 - 1.**默认为 `Off关闭`状态**
   - 文件名是否加密，作用于上传后文件名进行加密
 - 2.**标准加密**
@@ -170,7 +177,8 @@ If you don’t understand, you can use the default configuration
   - 如果开启<Badge text="文件名" type="tip" vertical="middle" />加密，就会显示<Badge text="左下角" color="rgb(78,130,184)" vertical="middle" />那样将文件名也进行了加密混淆没有了后缀和原文件名，别人就无法知道是什么了，但是可以在`Crypt`驱动（<Badge text="右侧展示的文件夹" color="rgb(0.0.0.0)" vertical="middle" />）中看到真实文件名
     ![image-20230721230425597](/img/drivers/crypt/crypt-demo2.png)
     <br/>
-    :::
+
+:::
 
 ### <i class="fa-solid fa-folder-open" style="color: #409eff;"></i> **Directory name encryption** { lang="en" }
 
@@ -185,16 +193,20 @@ When you turn on the folder encryption, you must select a **filename encryption*
   - If enabled <Badge text="Directory" type="tip" vertical="middle" /> encryption，It will be displayed<Badge text="Lower left corner pic" color="rgb(78,130,184)" vertical="middle" /> folder name is encrypted
     ![image-20230721230425597](/img/drivers/crypt/crypt-demo2.png)
     <br/>
-    :::
-    ::: zh-CN
-    使用启用文件夹加密，默认为 `false` 未启用，看不懂可以不启用，
-    开启文件夹加密的同时必须选择一项**文件名加密**否则单独只开文件夹加密不生效
+
+:::
+
+::: zh-CN
+使用启用文件夹加密，默认为 `false` 未启用，看不懂可以不启用，
+开启文件夹加密的同时必须选择一项**文件名加密**否则单独只开文件夹加密不生效
+
 - 下图中左侧的加密了的 [**加密后文件存储路径**](#加密后文件存储路径)，右侧是解密后的`crypt`驱动可以查看文件
   - 如果不开启<Badge text="文件夹" type="tip" vertical="middle" />加密，就会显示<Badge text="左上角" color="rgb(216,100,69)" vertical="middle" />那样的没有任何变化的文件夹
   - 如果开启<Badge text="文件夹" type="tip" vertical="middle" />加密，就会显示<Badge text="左下角" color="rgb(78,130,184)" vertical="middle" />那样将文件夹名字也进行了加密混淆
     ![image-20230721230425597](/img/drivers/crypt/crypt-demo2.png)
     <br/>
-    :::
+
+:::
 
 ### <i class="fa-solid fa-cloud-binary" style="color: #409eff;"></i> **Remote path** { lang="en" }
 

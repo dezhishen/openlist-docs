@@ -151,7 +151,8 @@ Open Platform URL: [AliYun Drive Open Platform](https://www.alipan.com/developer
 12. 授权成功后，页面会显示你的 `访问令牌（Access Token）` 和 `刷新令牌（Refresh Token）`，请复制并保存这两个令牌。
     ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-d.png#dark)
     ![aliyun-open-04](/img/drivers/aliyun/aliyun-open-04-l.png#light)
-    :::
+
+:::
 
 ## 3. Add AliYun Drive to OpenList { lang="en" }
 
@@ -188,36 +189,25 @@ Open Platform URL: [AliYun Drive Open Platform](https://www.alipan.com/developer
 11. In `Cloud Drive Type`, select the cloud drive type (optional), default is `Default`. See [Configuration Instructions/Cloud Drive Type](#_3-2-5-cloud-drive-type).
 12. In `Livp Download Format`, select the format for downloading live photos (optional), default is `Jpeg`. See [Configuration Instructions/Livp Download Format](#_3-2-6-livp-download-format).
 13. In `Internal Upload`, select whether to enable internal upload (optional), default is off. See [Configuration Instructions/Internal Upload](#_3-2-7-internal-upload).
-14. Click the `Add` button to complete adding AliYun Drive.  
-    :::
-    ::: zh-CN
-15. 打开 OpenList 的管理界面，点击左侧菜单中的`存储`。
-16. 在存储列表页面，点击右上角的`添加存储`按钮
-17. 选择驱动为`阿里云盘(Oauth2)`。
-18. 输入挂载路径，如：`aliyun-drive`。
-19. 在`根文件夹 ID`中填写上面获取的根文件夹 ID，如果使用根目录，请填写`root`。见[配置说明/根文件夹 ID](#_3-2-1-根文件夹-id)。
-    ![aliyun-open-05-l](/img/drivers/aliyun/aliyun-open-05-l.png#light)
-    ![aliyun-open-05-d](/img/drivers/aliyun/aliyun-open-05-d.png#dark)
-20. 在刷新令牌中填写上面获取的刷新令牌（如未获取，请参考[准备接入](#_2-准备接入)）。
-21. 如果你使用的是 `OpenList （或者公益服务器/自建服务器）`提供的 OAuth 客户端 ID 和密钥，请按照`7.1`、`7.2`和`7.3`进行配置
-    7.1. **勾选**`Use online api`。
-    7.2. `客户端ID（ClientID/AppID）`和`应用密钥 (AppKey/Secret)`均**留空**。
-    7.3. 在`Api url address`中填写 `https://api.oplist.org/alicloud/renewapi`，如果是`公益服务器/自建服务器`，请填写对应的服务器地址。
-    ![aliyun-open-06-l](/img/drivers/aliyun/aliyun-open-06-l.png#light)
-    ![aliyun-open-06-d](/img/drivers/aliyun/aliyun-open-06-d.png#dark)
-22. 如果你使用的是自己创建的 OAuth 客户端 ID 和密钥，请按照`8.1`、`8.2`和`8.3`进行配置
-    8.1. **不要**勾选`Use online api`。
-    8.2. 在`客户端ID（ClientID/AppID）`中填写你的`AppId`，在`应用密钥 (AppKey/Secret)`中填写你的`AppSecret`。见[配置说明/客户端 ID，密钥](#_3-2-2-客户端-id-密钥)。
-    8.3. `Api url address`留空
-    ![aliyun-open-07-l](/img/drivers/aliyun/aliyun-open-07-l.png#light)
-    ![aliyun-open-07-d](/img/drivers/aliyun/aliyun-open-07-d.png#dark)
-23. 在`秒传`选项中，选择是否启用秒传功能（可选）。 见[配置说明/秒传](#_3-2-3-秒传)。
-24. 在`移除方式`中，选择删除文件的方式（可选），默认是回收站。见[配置说明/移除方式](#_3-2-4-移除方式)。
-25. 在`云盘类型`中，选择云盘类型（可选），默认是`默认`类型。见[配置说明/云盘类型](#_3-2-5-云盘类型)。
-26. 在`Livp 下载格式`中，选择下载实况照片的格式（可选），默认是`Jpeg`。见[配置说明/Livp 下载格式](#_3-2-6-livp-下载格式)。
-27. 在`内部上传`中，选择是否启用内部上传（可选），默认是关闭。见[配置说明/内部上传](#_3-2-7-内部上传)。
-28. 点击`添加`按钮，完成阿里云盘的添加。
-    :::
+14. Click the `Add` button to complete adding AliYun Drive.
+
+:::
+
+::: zh-CN 15. 打开 OpenList 的管理界面，点击左侧菜单中的`存储`。16. 在存储列表页面，点击右上角的`添加存储`按钮 17. 选择驱动为`阿里云盘(Oauth2)`。18. 输入挂载路径，如：`aliyun-drive`。19. 在`根文件夹 ID`中填写上面获取的根文件夹 ID，如果使用根目录，请填写`root`。见[配置说明/根文件夹 ID](#_3-2-1-根文件夹-id)。
+![aliyun-open-05-l](/img/drivers/aliyun/aliyun-open-05-l.png#light)
+![aliyun-open-05-d](/img/drivers/aliyun/aliyun-open-05-d.png#dark) 20. 在刷新令牌中填写上面获取的刷新令牌（如未获取，请参考[准备接入](#_2-准备接入)）。21. 如果你使用的是 `OpenList （或者公益服务器/自建服务器）`提供的 OAuth 客户端 ID 和密钥，请按照`7.1`、`7.2`和`7.3`进行配置
+7.1. **勾选**`Use online api`。
+7.2. `客户端ID（ClientID/AppID）`和`应用密钥 (AppKey/Secret)`均**留空**。
+7.3. 在`Api url address`中填写 `https://api.oplist.org/alicloud/renewapi`，如果是`公益服务器/自建服务器`，请填写对应的服务器地址。
+![aliyun-open-06-l](/img/drivers/aliyun/aliyun-open-06-l.png#light)
+![aliyun-open-06-d](/img/drivers/aliyun/aliyun-open-06-d.png#dark) 22. 如果你使用的是自己创建的 OAuth 客户端 ID 和密钥，请按照`8.1`、`8.2`和`8.3`进行配置
+8.1. **不要**勾选`Use online api`。
+8.2. 在`客户端ID（ClientID/AppID）`中填写你的`AppId`，在`应用密钥 (AppKey/Secret)`中填写你的`AppSecret`。见[配置说明/客户端 ID，密钥](#_3-2-2-客户端-id-密钥)。
+8.3. `Api url address`留空
+![aliyun-open-07-l](/img/drivers/aliyun/aliyun-open-07-l.png#light)
+![aliyun-open-07-d](/img/drivers/aliyun/aliyun-open-07-d.png#dark) 23. 在`秒传`选项中，选择是否启用秒传功能（可选）。 见[配置说明/秒传](#_3-2-3-秒传)。24. 在`移除方式`中，选择删除文件的方式（可选），默认是回收站。见[配置说明/移除方式](#_3-2-4-移除方式)。25. 在`云盘类型`中，选择云盘类型（可选），默认是`默认`类型。见[配置说明/云盘类型](#_3-2-5-云盘类型)。26. 在`Livp 下载格式`中，选择下载实况照片的格式（可选），默认是`Jpeg`。见[配置说明/Livp 下载格式](#_3-2-6-livp-下载格式)。27. 在`内部上传`中，选择是否启用内部上传（可选），默认是关闭。见[配置说明/内部上传](#_3-2-7-内部上传)。28. 点击`添加`按钮，完成阿里云盘的添加。
+
+:::
 
 ### 3.2. Configuration Instructions { lang="en" }
 
@@ -274,9 +264,12 @@ Normal users can leave it blank. If you have applied for official authorization,
 - **Version v.3.27.0** enhances instant upload: files can be instantly transferred between `115 Network Disk` and AliYun Drive by direct copying.
   - Prerequisite: To instantly transfer a file from AliYun Drive to 115, the file must already exist in 115; otherwise, it will be a normal copy task.
   - If instantly transferring a file from 115 to AliYun Drive, enable the instant upload option for AliYun Drive; otherwise, it will be a normal upload.  
-     It is recommended to locally deploy an OpenList on your home computer, add a `local storage` and `AliYun Drive`, and use copy instant upload to save resources.  
-    :::
-    ::: zh-CN
+     It is recommended to locally deploy an OpenList on your home computer, add a `local storage` and `AliYun Drive`, and use copy instant upload to save resources.
+
+:::
+
+::: zh-CN
+
 - **v.3.22.1** 版本 新增功能
   就是秒传，需要在挂载时，需要启用`秒传`，要秒传的前提是阿里云盘已经有这个文件才可以进行秒传否则就是普通的上传
   秒传计算的是文件`sha1`值(应该没错)不需要你计算,你只需要上传即可上传好了会自动帮你计算然后上传完成
@@ -289,7 +282,8 @@ Normal users can leave it blank. If you have applied for official authorization,
   - 如果将115的文件秒传到阿里云盘，需要将阿里云盘的秒传选项打开否则为正常模式上传
     如果要使用秒传来上传文件建议在自己家用电脑本地搭建一个OpenList添加一个`本地存储`和`阿里云盘`进行复制秒传这样节省资源。
     <br/>
-    :::
+
+:::
 
 #### 3.2.4. **Removal Method** { lang="en" }
 
@@ -302,17 +296,21 @@ If not set, it defaults to deleting to the recycle bin. If space is insufficient
 - **Delete**: Direct deletion without staying in the recycle bin, not occupying cloud drive space, but cannot be retrieved later if deleted by mistake.
   - Note: Do not leak the Token obtained from AliYun Drive Open. If leaked by mistake, please immediately:
   - **Open AliYun Drive app → My → Settings gear icon in the upper right corner → Privacy Settings → Authorization Management → Click OpenList to view and revoke authorization**.
-  - Then rescan the code to authorize for a new refresh token. Revoking authorization will invalidate all previously obtained tokens to protect your account security.  
-    :::
-    ::: zh-CN
-    不进行设置默认是删除到回收站內了，如果空间不够需要自己手动清理回收站/若删错文件请前往阿里云盘官网客户端进行找回恢复
+  - Then rescan the code to authorize for a new refresh token. Revoking authorization will invalidate all previously obtained tokens to protect your account security.
+
+:::
+
+::: zh-CN
+不进行设置默认是删除到回收站內了，如果空间不够需要自己手动清理回收站/若删错文件请前往阿里云盘官网客户端进行找回恢复
+
 - **回收站**：在OpenList删除后进入网盘回收站，会占用云盘空间，但是后期如果误删可以找回。
 - **删除**：直接删除不会停留在回收站，不会占用云盘空间，但是后期如果误删不能找回。
   - 注：请勿泄露自己阿里云盘Open获取的Token， 若不小心泄露请立刻：
   - **打开-阿里云盘-app-我的-右上角设置齿轮-隐私设置-授权管理-点击-openlist-进行查看和解除授权**
   - 再重新扫码授权换新的刷新令牌，同时解除授权后之前获取的都会失效，以保护您账号的安全==
     <br/>
-    :::
+
+:::
 
 #### 3.2.5. **Cloud Drive Type** { lang="en" }
 
@@ -384,10 +382,12 @@ If the server where OpenList is deployed is an AliYun ECS in the Beijing region,
 >
 > 1. The **prompt** when scanning the code to obtain the refresh token.
 > 2. Open **AliYun Drive app → My → Settings gear icon in the upper right corner → Privacy Settings → Authorization Management → Click OpenList** to view.
->    - You can manually revoke permissions at any time if not in use.  
->      :::
->      ::: zh-CN
->      OpenList 仅获取了 云盘用户 (**名称 头像 ¹**)，(**访问文件权限 ²**)和(**写入文件权限 ³**)，未获取手机号权限
+>    - You can manually revoke permissions at any time if not in use.
+>
+> :::
+>
+> ::: zh-CN
+> OpenList 仅获取了 云盘用户 (**名称 头像 ¹**)，(**访问文件权限 ²**)和(**写入文件权限 ³**)，未获取手机号权限
 >
 > 详情可以通过以下两种方式查看
 >
@@ -395,7 +395,8 @@ If the server where OpenList is deployed is an AliYun ECS in the Beijing region,
 > 2. #### 打开 **阿里云盘 APP --> 我的 -->右上角设置齿轮 --> 隐私设置 --> 授权管理 --> 点击 OpenList** 进行查看
 >
 >    - 若不使用了可以随时手动解除权限
->      :::
+>
+> :::
 
 ### 4.2. About Video Playback { lang="en" }
 

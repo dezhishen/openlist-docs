@@ -178,14 +178,18 @@ Whether the web preview,download and the direct link go through the transfer. If
   - If there are 302 options default to 302, if there is no 302 option default to the local agent, if you want to use the agent URL, please fill in and manually switch to the proxy URL strategy
     The two are different configurations
     <br/>
-    :::
-    ::: zh-CN
+
+:::
+
+::: zh-CN
+
 - Web代理：是使用网页时候的策略，默认为本地代理，如果填写了代理URL并且启用了Web代理使用的是代理URL
 - WebDAV策略：是在使用WebDAV功能时候的选项，
   - 如果有302选项默认为302，如果没有302选项默认为本地代理，如果要使用代理URL请填写并且手动切换到代理URL策略
     两者是不同的配置
     <br/>
-    :::
+
+:::
 
 ## **Webdav policy** { lang="en" }
 

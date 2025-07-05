@@ -37,7 +37,8 @@ We see that two different folders are merged into one folder, and the file folde
 2. Priority of the same name: When accessing resources, the path file (folder) at the top (front) when filling in the path for each fixed access
    - If the files with the same name are merged, click **` to play, and when downloading`**, it will be called first. When filling in `Paths`, the file with the 302 mode path will be used first.
      Let me explain **`same name first²`** access rules
-     :::
+
+:::
 
 ::: zh-CN
 我们先看一张示意图
@@ -58,7 +59,8 @@ We see that two different folders are merged into one folder, and the file folde
 2. 同名优先：访问资源时，每次固定访问填写路径时顶部(靠前)的那个路径文件(夹)
    - 若同名文件合并后，点击 **`播放，下载`** 时优先调用填写 `Paths` 时最靠前使用302模式路径的文件
      下面解释一下 **`同名优先²`** 访问规则，强烈建议查看个举例都查看
-     :::
+
+:::
 
 ## **填写方式** { lang="zh-CN" }
 
@@ -106,7 +108,8 @@ merge: /file3 2/TV/Domestic TV Series/Station XX
 合并显示:/目录2/电视/国产电视剧/某某台
 `
      根据第二种这样我们可以将不同的文件夹进行`合并显示`，方便快捷
-     :::
+
+:::
 
 ### 1.例1 { lang="zh-CN" }
 
@@ -126,9 +129,11 @@ local: /localtest/local4
   - If 1 3 4 uses the local proxy and 2 uses `302`, call 2 first
 - 2, a video 3 4 yes then every visit is `3`
   - If 3 uses a local proxy and 4 uses `302`, call 4 first
-    :::
-    ::: zh-CN
-    例1、 根据下面路径填写访问(302模式有优先权)
+
+:::
+
+::: zh-CN
+例1、 根据下面路径填写访问(302模式有优先权)
 
 ```
 本地:/本地测试/本地1
@@ -141,7 +146,8 @@ local: /localtest/local4
   - 如果1 3 4 使用的本地代理，2 使用的`302`，优先调用 2
 - 2，一个视频 3 4 有 那么每次访问的都是`3`
   - 如果 3 使用的本地代理，4 使用的`302`，优先调用 4
-    :::
+
+:::
 
 ### 2.例2 { lang="zh-CN" }
 
@@ -161,9 +167,11 @@ local: /localtest/local1
   - If 1 3 4 uses the local proxy and 2 uses `302`, call 2 first
 - 2, a video 3 4 has then every visit is `4`
   - If 4 uses a local proxy and 2 uses `302`, call 2 first
-    :::
-    ::: zh-CN
-    例2、根据下面的路径填写访问(302模式有优先权)
+
+:::
+
+::: zh-CN
+例2、根据下面的路径填写访问(302模式有优先权)
 
 ```
 本地:/本地测试/本地4
@@ -176,7 +184,8 @@ local: /localtest/local1
   - 如果1 3 4 使用的本地代理，2 使用的`302`，优先调用 2
 - 2，一个视频 2 4 有 那么每次访问的都是`4`
   - 如果 4 使用的本地代理，2 使用的`302`，优先调用 2
-    :::
+
+:::
 
 ### 3.例3 { lang="zh-CN" }
 
@@ -251,7 +260,8 @@ Test other:/test4/video/tv
    - 从下图中看到，阿里云盘有 `web代理`选择，`webdav策略`默认是302，可以判断出阿里云盘默认使用的是302方式
    - 从下图中看到，115网盘没有 `web代理`选择，`webdav策略`默认是本地代理，可以判断出115网盘默认使用的是本地代理方式
    - ![alias](/img/drivers/alias/alias-2.png)
-     :::
+
+:::
 
 ### **其他说明** { lang="zh-CN" }
 
