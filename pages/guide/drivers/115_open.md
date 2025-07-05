@@ -35,7 +35,9 @@ Please use your account in a standardized manner. Do not use it for distribution
 
 ::: en
 An **115** account is required.
-warning Note
+:::
+::: en
+::: warning Note
 The speed and stability are related to the local network environment, the network environment of the 115 server, and the performance of the machine running OpenList.
 :::
 
@@ -267,7 +269,8 @@ sequenceDiagram
 
 ## 5.**注意事项** { lang="zh-CN" }
 
-warning Handling Method for Token Leakage
+::: zh-CN
+::: warning Handling Method for Token Leakage
 If the Token is accidentally leaked, you can go to the 115 device login management to解除应用授权 (revoke application authorization).
 
 - 115 APP: [iOS, Android] versions need to be ≥ 35.11.0
@@ -280,8 +283,8 @@ failed get objs: failed to list objs: code: 40140116, message: no auth
 
 An account can obtain two `Refresh tokens` in the same application. After the third acquisition, the first obtained `Refresh token` will expire. Using the first `Refresh token` will prompt the above error.
 :::
-
-warning Token 泄漏后处理方法
+::: zh-CN
+::: warning Token 泄漏后处理方法
 如果不小心泄漏了 Token，可以前往115设备登录管理解除应用授权
 
 - 115 APP：【**iOS** 、**Android**】版本 需要 ≥ 35.11.0
