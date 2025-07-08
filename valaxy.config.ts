@@ -101,15 +101,6 @@ export default defineValaxyConfig<PressTheme.Config>({
         ],
       },
       {
-        text: 'nav.statement.title',
-        items: [
-          {
-            text: 'nav.statement.disclaimer',
-            link: '/statement/disclaimer',
-          },
-        ],
-      },
-      {
         text: COMMIT_TAG,
         items: [
           {
