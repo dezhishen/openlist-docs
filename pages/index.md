@@ -18,6 +18,7 @@ hero:
       text: hero.actions.view-github
       link: https://github.com/OpenListTeam/OpenList
     - theme: alt
+      external: true
       text: hero.actions.disclaimer
       link: /disclaimer
 # todo, rewrite with valaxy
