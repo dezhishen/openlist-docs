@@ -9,15 +9,22 @@
   }>()
   const link = computed(() => props.href || props.to || '#')
   const isExternalLink = computed(() => {
-    if (props.external) {
-      return true
-    }
     return typeof link.value === 'string' && link.value.startsWith('http')
   })
 </script>
 
 <template>
-  <RouterLink v-if="isExternalLink" v-bind="$attrs" :to="link" tag="a" target="_blank">
+  <a v-if="isExternalLink" v-bind="$attrs" :href="link" target="_blank">
+    <slot />
+    <div v-if="showExternalIcon" class="icon-link inline-block" i-ri-arrow-right-up-line />
+  </a>
+  <RouterLink
+    v-else-if="!isExternalLink && props.external"
+    v-bind="$attrs"
+    :to="link"
+    tag="a"
+    target="_blank"
+  >
     <slot />
     <div v-if="showExternalIcon" class="icon-link inline-block" i-ri-arrow-right-up-line />
   </RouterLink>
