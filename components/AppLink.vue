@@ -20,10 +20,10 @@
 </script>
 
 <template>
-  <a v-if="isExternalLink" v-bind="$attrs" :href="link" target="_blank">
+  <RouterLink v-if="isExternalLink" v-bind="$attrs" :to="link" tag="a" target="_blank">
     <slot />
     <div v-if="showExternalIcon" class="icon-link inline-block" i-ri-arrow-right-up-line />
-  </a>
+  </RouterLink>
   <RouterLink v-else v-bind="$attrs" :to="link">
     <slot />
   </RouterLink>
