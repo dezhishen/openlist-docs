@@ -20,7 +20,7 @@ hero:
     - theme: alt
       external: true
       text: hero.actions.disclaimer
-      link: /disclaimer
+      link: ./disclaimer
 # todo, rewrite with valaxy
 # features:
 ---
