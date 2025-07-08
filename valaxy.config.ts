@@ -68,7 +68,7 @@ export default defineValaxyConfig<PressTheme.Config>({
   theme: 'press',
   themeConfig: {
     logo: VITE_BASE.endsWith('/') ? `${VITE_BASE}logo.svg` : `/${VITE_BASE}/logo.svg`,
-    sidebar: ['guide', 'configuration', 'faq', 'api', 'migration', 'statement'],
+    sidebar: ['guide', 'configuration', 'faq', 'api', 'migration'],
     socialLinks: [{ icon: 'i-ri-github-line', link: 'https://github.com/OpenListTeam/OpenList' }],
     nav: [
       {
@@ -97,15 +97,6 @@ export default defineValaxyConfig<PressTheme.Config>({
           {
             text: 'nav.community.telegram_channel',
             link: 'https://t.me/OpenListOfficial',
-          },
-        ],
-      },
-      {
-        text: 'nav.statement.title',
-        items: [
-          {
-            text: 'nav.statement.disclaimer',
-            link: '/statement/disclaimer',
           },
         ],
       },

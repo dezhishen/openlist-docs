@@ -2,15 +2,15 @@
 title: Disclaimer
 title_zh-CN: 免责声明
 # This is the icon of the page
-icon: iconfont icon-state
-# This control sidebar order
+nav: false
+hide: true
+toc: false
+layout: statement
 top: 500
 # A page can have multiple categories
-categories:
-  - statement
 ---
 
-# 关于下游项目的免责声明 { lang="zh-CN" }
+## 关于下游项目的免责声明 { lang="zh-CN" }
 
 ::: zh-CN
 
@@ -22,7 +22,7 @@ categories:
 
 :::
 
-# Disclaimer Regarding Downstream Projects { lang="en" }
+## Disclaimer Regarding Downstream Projects { lang="en" }
 
 ::: en
 

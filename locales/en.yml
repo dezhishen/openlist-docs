@@ -8,9 +8,6 @@ nav:
   configuration: Configuration
   guide: User Guide
   faq: FAQ
-  statement:
-    title: Statement
-    disclaimer: Disclaimer
   community:
     title: Community
     discussions: Github Discussions
@@ -35,7 +32,6 @@ category:
   admin: admin
   # Changelog
   changelog: Changelog
-  statement: Statement
 
 # ! Index page (layout: hero)
 hero:
@@ -43,6 +39,7 @@ hero:
   actions:
     get-started: Get Started
     view-github: View Github
+    disclaimer: Disclaimer
 
 # ! components/WorkInProgress.vue
 wip: WIP, please stay tuned

@@ -8,9 +8,6 @@ nav:
   configuration: 配置
   guide: 用户指南
   faq: FAQ
-  statement:
-    title: 声明
-    disclaimer: 免责声明
   community:
     title: 社区
     discussions: Github 讨论区
@@ -35,7 +32,6 @@ category:
   admin: admin
   # Changelog
   changelog: Changelog
-  statement: 声明
 
 # ! Index page (layout: hero)
 hero:
@@ -43,6 +39,7 @@ hero:
   actions:
     get-started: 快速上手
     view-github: 查看 GitHub
+    disclaimer: 免责声明
 
 # ! components/WorkInProgress.vue
 wip: 编写中，敬请期待
