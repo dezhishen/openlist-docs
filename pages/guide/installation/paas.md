@@ -13,7 +13,59 @@ categories:
 # A page can have multiple tags
 ---
 
-N/A
+::: zh-CN
+::: tip
+文档可能更新不及时，请根据关键信息结合平台当前部署界面进行调整
+:::
+::: en
+::: tip
+The documentation may not be updated in a timely manner. Please make adjustments based on the key information and the current deployment interface of the platform.
+:::
+
+## ClawCloud { lang="en" }
+
+## 爪云 { lang="zh-CN" }
+
+### 关键信息 { lang="zh-CN" }
+
+### Key Information { lang="en" }
+
+::: en
+Name|Value|Description
+:--|:--|:---
+Application Name|openlist|Application name
+Image|openlistteam/openlist:latest-lite|Image, please make sure to use the one with **lite**, otherwise the error `Pod ephemeral local storage usage exceeds the total limit of containers 100Mi.` may occur
+Replicas|1|Number of replicas, set to 1
+CPU|0.2|Number of CPU cores, set according to your own needs
+Memory|256M|Memory size, set according to your own needs
+Container Port|5244|Mapped port, which is `5244` if you have not modified the startup command or configuration
+Public Access|Y|Enable external access
+Custom Domain|-|If you have your own domain name, set it according to the prompts; if not, keep the default. Please make sure to use **https** for the protocol
+Local Storage|-|Persistent volume
+-- Capacity|1|Capacity
+-- Mount Path|/opt/openlist/data|Configured mapped directory, which is `/opt/openlist/data` if you have not modified the startup command or configuration
+:::
+::: zh-CN
+名称|值|说明
+:--|:--|:---
+Application Name|openlist|应用名
+Image|openlistteam/openlist:latest-lite|镜像，请务必使用带有**lite**的镜像，否则可能出现`Pod ephemeral local storage usage exceeds the total limit of containers 100Mi.`
+Replicas|1|副本数，设置为1
+CPU|0.2|CPU核心数，请根据自身需求设置
+Memory|256M|内存大小，请根据自身需求设置
+Container Port|5244|映射端口，如果你没有修改启动命令或者配置，则为`5244`
+Public Access|Y|打开外部访问
+Custom Domain|-|如果你有自身的域名，请根据提示进行设置，如果没有，保持默认，协议请务必使用**https**
+Local Storage|-|持久卷
+-- Capacity|1|容量
+-- Mount Path|/opt/openlist/data|配置映射的目录，如果你没有修改启动命令或者配置，则为`/opt/openlist/data`
+:::
+
+### 参考图示 { lang="zh-CN" }
+
+### Reference Diagram { lang="en" }
+
+![](/img/guide/installation/clawcloud-01.png)
 
 <!--
 ::: en
