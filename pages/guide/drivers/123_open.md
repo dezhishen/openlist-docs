@@ -44,7 +44,8 @@ categories:
 点击后，界面下方的访问令牌中将会出现`https://open-api.123pan.com/api/v1/access_token?client_id=你的客户端ID&clientSecret=你的客户端密钥`
 
 > 这就是访问令牌
-> :::
+
+:::
 
 ::: en
 Open [https://api.oplist.org/](https://api.oplist.org/)
@@ -59,9 +60,11 @@ Open [https://api.oplist.org/](https://api.oplist.org/)
 After clicking, the access token at the bottom of the interface will display `https://open-api.123pan.com/api/v1/access_token?client_id=your client ID&clientSecret=your client secret`
 
 > This is the access token
-> :::
-> ![](/img/drivers/123/123open-01-l.png#light)
-> ![](/img/drivers/123/123open-01-d.png#dark)
+
+:::
+
+![](/img/drivers/123/123open-01-l.png#light)
+![](/img/drivers/123/123open-01-d.png#dark)
 
 ## 在OpenList中添加 { lang="zh-CN" }
 
